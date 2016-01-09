@@ -1,0 +1,80 @@
+<!doctype html>
+
+
+<html>
+
+<head>
+<title> all about git!</title>
+</head>
+<body>
+<a href="#branch">branching and merging</a>
+<br />
+<a href="#small">small and fast</a>
+<br />
+<a href="#disributed">distributed nature</a>
+<br />
+<a href="#stage">stging area</a>
+
+
+<h1><a name="branch"></a>branching and merging</h1>
+<p>
+ The Git feature that really makes it stand apart
+ from nearly every other SCM out there is its branching model.</p>
+<p>
+Git allows and encourages you to have multiple local 
+branches that can be entirely independent of each other.
+ The creation, merging, and deletion of those lines of development takes seconds. </p>
+<hr />
+
+<h2><a name="small"></a>small and fast</h2>
+<p> Git is fast. With Git, nearly all operations are performed locally,
+ giving it a huge speed advantage on centralized systems that constantly 
+ have to communicate with a server somewhere.</p>
+<p>
+Git was built to work on the Linux kernel, 
+meaning that it has had to effectively handle large 
+repositories from day one. Git is written in C, reducing the 
+overhead of runtimes associated with higher-level languages.
+ Speed and performance has been a primary design goal of the Git from the start. 
+ </p>
+ <hr />
+ 
+ <h3><a name="distributed"> </a>distributed</h3>
+
+<p>
+One of the nicest features of any <strong>Distributed SCM</strong>,
+ Git included, is that it's distributed.
+ This means that instead of doing a "checkout" of the current
+ tip of the source code, you do a "clone" of the entire repository.
+Multiple Backups</p>
+<p>
+This means that even if you're using a centralized workflow, 
+every user essentially has a full backup of the main server.
+ Each of these copies could be pushed up to replace the main server in
+ the event of a crash or corruption. In effect, there is no single point
+ of failure with Git unless there is only a single copy of the repository. 
+ </p>
+ <hr />
+ <h4><a name="stage"> </a>staging area<h4>
+ <p>
+ This is the main thing to remember about Git if you want the rest of your
+ learning process to go smoothly. Git has three main states that your files 
+ can reside in: committed, modified, and staged.</p>
+<p> Committed means that the 
+ data is safely stored in your local database. Modified means that you have
+ changed the file but have not committed it to your database yet.
+ Staged means that you have marked a modified file in its current version to
+ go into your next commit snapshot.
+
+This leads us to the three main sections of a Git project:
+ the Git directory, the working directory, and the staging area. </p>
+ 
+ <hr />
+ 
+ 
+ 
+</body>
+
+
+
+</html>

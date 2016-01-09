@@ -1,0 +1,19 @@
+<!doctype html>
+
+
+<html>
+<head>
+<title>persistent internship 2015    </title>
+</head>
+
+<body>
+<!--hi i m so lucky to have this internship (9/1/2015)-->
+<em>hello techtud </em> <br />
+<h1>welcome to the online internship !</h1>
+<hr />
+<h2>git tutorials</h2>
+introduction to git as a <strong>version control system </strong> <br /> use of git in creating <strong>repositories!
+
+<a href="http://google.com"> for more info</a>
+</body>
+</html>
